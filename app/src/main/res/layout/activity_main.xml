@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="370dp"
+                android:layout_height="35dp"
+                android:text="Create Device"
+                android:textAlignment="center"
+
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/imei"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter IMEI number"
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/amrid"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter AMR Id"
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/sim"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter SIM"
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/imsi"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter IMSI "
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="370dp"
+                android:layout_height="35dp"
+                android:text="Device Enable"
+                android:textSize="20sp"/>
+
+                <LinearLayout
+                    android:layout_width="363dp"
+                    android:layout_height="47dp"
+                    android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="170dp"
+                    android:layout_height="58dp"
+                    android:text="AMR Enable" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:layout_width="170dp"
+                        android:layout_height="58dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="9dp"
+                        android:text="Tamper Enable" />
+                </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="370dp"
+                android:layout_height="35dp"
+                android:text="Device Configuration"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/waketime"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Wake Time "
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/timezone"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="TimeZone"
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/datasample"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Data Sample Count"
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/litreperPlus"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Litre Per Pluse"
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="370dp"
+                android:layout_height="35dp"
+                android:text="Device Information"
+                android:textSize="20sp"/>
+
+
+
+            <EditText
+                android:id="@+id/applicatonofamr"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Select Applicaton of amr"
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/type"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Select Type"
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/size"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Select Diameter size"
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter State "
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter city "
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+            <EditText
+                android:id="@+id/Address"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter Customer device address "
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter Customer name "
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter Customer device Location "
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/wing"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter Buliding or Wing "
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter Price per Litre "
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/area"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter Area "
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/zone"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter zone "
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <TextView
+                android:id="@+id/textView412"
+                android:layout_width="370dp"
+                android:layout_height="35dp"
+                android:text="Device Allocation"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/user"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="select User "
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/admin"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="select Admin "
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="370dp"
+                android:layout_height="35dp"
+                android:text="User Creation"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/macid"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter Mac Id "
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/serialNo"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter Serial Number"
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/companyName"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter Company Name"
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+            <EditText
+                android:id="@+id/drvicename"
+                android:layout_width="363dp"
+                android:layout_height="47dp"
+                android:hint="Enter Device Name"
+
+                android:textAlignment="center"
+                android:textColorHint="#E3D9D9" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
